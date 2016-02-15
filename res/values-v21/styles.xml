@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="android:colorPrimary">#7e57c2</item>-->
+        <!--<item name="android:colorPrimaryDark">#512da8</item>-->
+        <!--<item name="android:colorAccent">#90caf9</item>-->
+        <!--<item name="android:colorControlHighlight">#607e57c2</item>-->
+        <!--<item name="android:navigationBarColor">#512da8</item>-->
+        <!--<item name="android:actionBarItemBackground">@android:color/holo_green_dark</item>-->
+        <!--<item name="background">@android:color/holo_red_dark</item>-->
+        <!--<item name="android:background">@android:color/holo_red_dark</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+        <!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
+
+    <!--</style>-->
+
+    <!--<style name="ActionBar" parent="AppTheme">-->
+        <!--<item name="android:background">@android:color/holo_red_dark</item>-->
+        <!--<item name="background">@android:color/holo_red_dark</item>-->
+        <!--<item name="android:actionBarItemBackground">@android:color/holo_green_dark</item>-->
+    <!--</style>-->
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#7e57c2</item>
+        <item name="android:colorPrimaryDark">#512da8</item>
+        <item name="android:colorAccent">#64b5f6</item>
+
+    </style>
+</resources>
+

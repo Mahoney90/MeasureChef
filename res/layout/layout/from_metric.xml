@@ -1,0 +1,24 @@
+<LinearLayout
+    android:id="@+id/from_metric"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    tools:context="measurechef.measurechef.android.measurechef.FromMetric"
+    android:background="@drawable/skillet2"
+
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <ListView
+        android:id="@+id/from_metric_list_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:descendantFocusability="afterDescendants"
+        />
+
+</LinearLayout>

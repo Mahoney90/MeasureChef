@@ -1,0 +1,72 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="measurechef.measurechef.android.measurechef.OvenTemperatureConversions"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/oven_temp_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:fillViewport="true"
+        android:dividerHeight="2dp"
+        android:divider="#555555"
+        />
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/make_own_farenheit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_fahrenheit_temp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:textAllCaps="true"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:onClick="clear"
+            android:selectAllOnFocus="true"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:id="@+id/make_own_celcius"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_celcius_temp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

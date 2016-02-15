@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+           xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <!--<style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@android:color/holo_red_dark</item>-->
+        <!--<item name="background">@android:color/holo_red_dark</item>-->
+    <!--</style>-->
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+           <item name="android:windowBackground">@drawable/splash</item>
+
+        </style>
+
+</resources>

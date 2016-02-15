@@ -1,0 +1,27 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="measurechef.measurechef.android.measurechef.FromUS">
+
+
+    <item android:id="@+id/home1"
+          android:title="Home"
+          app:showAsAction="never"
+
+        />
+    <item android:id="@+id/switch_to_from_us"
+          android:title="U.S. to Metric"
+          app:showAsAction="never"/>
+    <item android:id="@+id/switch_to_from_metric"
+          android:title="Metric to U.S."
+          app:showAsAction="never" />
+    <item android:id="@+id/switch_to_liquid"
+          android:title="Liquid Conversions"
+          app:showAsAction="never"/>
+    <item android:id="@+id/switch_to_oven_tempatures"
+          android:title="Oven Temperature Conversion"
+          app:showAsAction="never" />
+
+</menu>

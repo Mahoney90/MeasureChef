@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.mahoneyapps.measurechef"
+          android:versionCode="2"
+          android:versionName="1.1"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme"
+        tools:node="replace"
+        >
+
+        <activity android:name=".SplashActivity"
+                  android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".FromUS"
+            android:label="From U.S. to Metric"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".FromMetric"
+            android:label="From Metric to U.S."
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value="com.mahoneyapps.measurechef.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".LiquidMeasurements"
+            android:label="Liquid Measurements"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value="com.mahoneyapps.measurechef.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".OvenTemperatureConversions"
+            android:label="Oven temperature conversions"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value="com.mahoneyapps.measurechef.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ActivityToExtend"
+            android:label="@string/title_activity_activity_to_extend" >
+        </activity>
+    </application>
+
+
+</manifest>

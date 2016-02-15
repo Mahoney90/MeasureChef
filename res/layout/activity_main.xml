@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="24dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ede7f6"
+    >
+
+    <include layout="@layout/toolbar"/>
+
+
+    <Button
+        android:id="@+id/to_from_metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/us_to_metric_conversion"
+        android:layout_weight="1"
+        android:layout_marginBottom="24dp"
+        android:onClick="openMetricConversion"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/ripple"
+        />
+
+    <Button
+        android:id="@+id/from_metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/metric_to_us"
+        android:layout_weight="1"
+        android:layout_marginBottom="24dp"
+        android:onClick="openFromMetricConversion"
+        android:background="@drawable/ripple"/>
+
+    <Button
+        android:id="@+id/liquid_conversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/liquid_unit_conversion"
+        android:layout_weight="1"
+        android:layout_marginBottom="24dp"
+        android:onClick="openLiquidConversion"
+        android:background="@drawable/ripple"/>
+
+    <Button
+        android:id="@+id/oven_conversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oven_temp_conversion"
+        android:layout_weight="1"
+        android:onClick="openTemperatureConversion"
+        android:background="@drawable/ripple"
+        />
+
+</LinearLayout>

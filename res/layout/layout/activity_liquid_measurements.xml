@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="measurechef.measurechef.android.measurechef.LiquidMeasurements"
+    android:background="@drawable/skillet2"
+    android:scaleX="1.0"
+    android:scaleY="1.0"
+    android:layout_marginBottom="16dp"
+
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <ListView
+        android:id="@+id/liquid_list_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:descendantFocusability="afterDescendants"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+</LinearLayout>
